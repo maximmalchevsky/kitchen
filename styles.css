@@ -1,13 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
-    background-color: #282c34;
+    background-color: #f2f2f2;
     font-family: 'Roboto', sans-serif;
     margin: 0
 }
 
 .header{
-    background-color: #21252b ;
+    background-color: #ffffff ;
     width: 100vw;
-    height: 70px;    
+    height: 140px;
+    position: relative;
+    flex-flow: column wrap;
+}
+
+.header-logo{
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    background-color: blue;
+}
+
+.header-menu{
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    background-color: violet;
+}
+
+h1{
+    display: flex;
+    color:bisque;
+    min-height: 6vh;
+    position: absolute;
 }
