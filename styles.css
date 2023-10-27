@@ -34,3 +34,10 @@ h1{
     min-height: 6vh;
     position: absolute;
 }
+
+.button{
+    display: flex;
+    height: 50px;
+    width: 170px;
+    margin: 20px 0 10px 15px;
+}
