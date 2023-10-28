@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+html,body{
+    margin:0
+}
+
 body{
     background-color: #f2f2f2;
     font-family: 'Roboto', sans-serif;
-    margin: 0
 }
 
 .header{
@@ -26,18 +29,24 @@ body{
     width: 100vw;
     height: 80px;
     background-color: violet;
+    justify-content: center;
+    align-items: center ;
 }
+
 
 h1{
     display: flex;
     color:bisque;
     min-height: 6vh;
     position: absolute;
+    text-align: center;
+    margin: auto;
 }
 
 .button{
     display: flex;
     height: 50px;
-    width: 170px;
-    margin: 20px 0 10px 15px;
+    width: 150px;
+    border: 2px transparent;
+    border-radius: 25px;
 }
